@@ -4,7 +4,7 @@
 
 ## 2.What problems / warnings are there with code?
 - Syntax Error <br />
-  Wrong Code :
+  Wrong Code :  (ropTypes.array(PropTypes.shapeOf should be ropTypes.arrayOf(PropTypes.shape)
  ````
   WrappedListComponent.propTypes = {
   items: PropTypes.array(PropTypes.shapeOf({
